@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  background-image:url("bg.jpg");
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  overflow: hidden;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 48px;
+  text-shadow: 5px 5px 5px black;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
