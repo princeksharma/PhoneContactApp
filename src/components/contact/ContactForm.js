@@ -43,11 +43,12 @@ class ContactForm extends Component {
                 <label className="col-sm col-form-label">Name</label>
                 <div className="col-sm">
                     <input 
-                        type="name" 
+                        type="text" 
                         name="name" 
                         value={this.state.name}
                         onChange={this.onChange}
                         placeholder="Name"
+                        required
                     />
                 </div>
             </div>
@@ -60,6 +61,7 @@ class ContactForm extends Component {
                         value={this.state.email}
                         onChange={this.onChange}
                         placeholder="Email ID"
+                        required
                     />
                 </div>
             </div>
@@ -72,6 +74,7 @@ class ContactForm extends Component {
                         value={this.state.number}
                         onChange={this.onChange}
                         placeholder="Phone Number"
+                        required
                     />
                 </div>
             </div>
@@ -84,6 +87,7 @@ class ContactForm extends Component {
                         value={this.state.url}
                         onChange={this.onChange}
                         placeholder="Paste Url"
+                        required
                     />
                 </div>
             </div>
